@@ -1,0 +1,42 @@
+将中文导航指令转换为机器人命令序列。
+可用命令：
+- start('起点名称', '初始朝向')    : 确认起点并开始向指定方向('north', 'east', 'west', 'south')移动
+- move_forward()               : 向前移动到下一个目标
+- move_to_end()                : 向前移动直到无路可走
+- detect('地标名称')           : 向前移动直到检测到指定地标，然后停止
+- detect_intersection()        : 向前移动直到下一个路口，然后停止
+- turn_right()                 : 向右转90度（仅转向，不移动）
+- turn_left()                  : 向左转90度（仅转向，不移动）
+- stop('终点名称')             : 向前移动直到检测到终点，然后停止
+
+转换规则：
+1. 第一个命令必须是 start('起点名称', '初始朝向')
+2. 最后一个命令必须是 stop('终点名称')
+3. turn_right() 和 turn_left() 只转向、不移动，因此其后必须紧跟一个移动命令：
+   detect('地标名称') / move_forward() / move_to_end() / stop('终点名称')
+4. 遇到地标时直接使用 detect('地标名称')，前面不要加 move_forward()
+5. 只提到路口（无地标名称）时使用 move_forward() + detect_intersection()。
+   「第N个路口」重复N次 move_forward() + detect_intersection()
+6. 「走到尽头」「走到街尾」「走到头」时使用 move_to_end()
+7. 指令中出现东西南北（或地图上的「上下左右」）时，先与当前朝向比较，
+   再转换为 turn_right() 或 turn_left()。当前朝向由 start() 的初始朝向决定，
+   每执行一次转向后朝向随之更新。方向与当前朝向相同时不需要转向命令。
+8. stop('终点名称') 已包含前进与检测，前面不要再加 detect('终点名称')
+9. 只输出JSON格式，不要输出任何其他文字
+   格式：{"commands": ["command1", "command2", ...]}
+
+示例（起点: 公园, 终点: 药店, 初始朝向: east）:
+ 输入:
+   起点: 公园
+   终点: 药店
+   初始朝向: east
+   导航指令: 从公园出发，走到超市右转，再走到银行左转，到药店停下
+ 输出:
+   {"commands": [
+     "start('公园', 'east')",
+     "detect('超市')",
+     "turn_right()",
+     "detect('银行')",
+     "turn_left()",
+     "stop('药店')"
+   ]}

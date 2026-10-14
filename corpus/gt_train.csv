@@ -1,0 +1,2372 @@
+﻿id,map_name,seed,person_id,initial_direction,instruction,gt_commands
+map_seed2.png_person1,map_seed2.png,2,person1,west,"起点: 公园
+终点: 炸鸡店
+初始朝向: west
+导航指令: 从公园和服装店的道路中间出发，向左手是公园的方向前进，遇到第一个路口向右拐，然后直走，再遇到路口时向左拐，向前走到达家具店，然后再往右拐，直行走到宠物店往右拐，直行到汽车站，往左转，直行到水果店，往左转，直行到左手是警察局的路口，往右拐，直行到左手边是炸鸡店的地方，到达终点","{""commands"": [
+  ""start('公园', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('家具店')"",
+  ""turn_right()"",
+  ""detect('宠物店')"",
+  ""turn_right()"",
+  ""detect('汽车站')"",
+  ""turn_left()"",
+  ""detect('水果店')"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('炸鸡店')""
+]}"
+map_seed2.png_person2,map_seed2.png,2,person2,west,"起点: 公园
+终点: 炸鸡店
+初始朝向: west
+导航指令: 从公园出发向西行走，走至快餐店后向北，一直走到中医馆，从中医馆向西行走至家具店后向北。继续行走，看到宠物店后，向东行走至汽车站处，接着向北一直走到水果店，从水果店向西一直走。看到警察局后，向北一直走到路的尽头，就可以到达炸鸡店","{""commands"": [
+  ""start('公园', 'west')"",
+  ""detect('快餐店')"",
+  ""turn_right()"",
+  ""detect('中医馆')"",
+  ""turn_left()"",
+  ""detect('家具店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('宠物店')"",
+  ""turn_right()"",
+  ""detect('汽车站')"",
+  ""turn_left()"",
+  ""detect('水果店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('炸鸡店')""
+]}"
+map_seed2.png_person3,map_seed2.png,2,person3,west,"起点: 公园
+终点: 炸鸡店
+初始朝向: west
+导航指令: 向左走到第一个路口，再向上走到尽头，再向左走到尽头，再向上走到尽头，再向右走到尽头，再向上走到尽头，再向左走到第一个路口，再向上走到尽头","{
+  ""commands"": [
+    ""start('公园', 'west')"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""stop('炸鸡店')""
+  ]
+}"
+map_seed2.png_person4,map_seed2.png,2,person4,west,"起点: 公园
+终点: 炸鸡店
+初始朝向: west
+导航指令: 从公园出发，向西走到快餐店，向北到培训班，再向西到家具店，再向北到比萨店，向东到汽车站。再向北走到水果店，向西走到警察局，最后向北走到终点到炸鸡店。","{""commands"": [""start('公园', 'west')"", ""detect('快餐店')"", ""turn_right()"", ""detect('培训班')"", ""turn_left()"", ""detect('家具店')"", ""turn_right()"", ""detect('比萨店')"", ""turn_right()"", ""detect('汽车站')"", ""turn_left()"", ""detect('水果店')"", ""turn_left()"", ""detect('警察局')"", ""turn_right()"", ""stop('炸鸡店')""]}"
+map_seed9.png_person3,map_seed9.png,9,person3,south,"起点: 旅行社
+终点: 药店
+初始朝向: south
+导航指令: 向下走到第三个路口，再向右走到尽头，再向上走到尽头，再向右走到尽头，再向下走到第一个路口，再向右走到尽头，再向下走到尽头，再向右走到第一个路口，再向上走到第二个路口，再向右走到尽头。","{""commands"": [
+  ""start('旅行社', 'south')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('药店')""
+]}"
+map_seed9.png_person4,map_seed9.png,9,person4,south,"起点: 旅行社
+终点: 药店
+初始朝向: south
+导航指令: 从旅行社出发，向南走到银行，向东走到电器店，向北走到教堂，向东走到科技馆，向南走到大学，向东走到玩具店。向向南走到酒店，向东走到市政厅，向北走到便利店。向东走到药店。","{
+  ""commands"": [
+    ""start('旅行社', 'south')"",
+    ""detect('银行')"",
+    ""turn_left()"",
+    ""detect('电器店')"",
+    ""turn_left()"",
+    ""detect('教堂')"",
+    ""turn_right()"",
+    ""detect('科技馆')"",
+    ""turn_right()"",
+    ""detect('大学')"",
+    ""turn_left()"",
+    ""detect('玩具店')"",
+    ""turn_right()"",
+    ""detect('酒店')"",
+    ""turn_left()"",
+    ""detect('市政厅')"",
+    ""turn_left()"",
+    ""detect('便利店')"",
+    ""turn_right()"",
+    ""stop('药店')""
+  ]
+}"
+map_seed10.png_person1,map_seed10.png,10,person1,east,"起点: 咖啡厅
+终点: 寿司店
+初始朝向: east
+导航指令: 起点是咖啡厅，向右手是玩具店的方向前进，走到第一个路口向右转，一直直行走到左手边是文具店的三岔路口，向右转直行到第一个十字路口，向左转直行走到学校，向右转直行到寿司店，寿司店在左手，寿司店是终点","{""commands"": [""start('咖啡厅', 'east')"",""move_forward()"",""detect_intersection()"", ""turn_right()"", ""detect('文具店')"",""detect_intersection()"",""turn_right()"",""move_forward()"",""detect_intersection()"", ""turn_left()"", ""detect('学校')"", ""turn_right()"", ""stop('寿司店')""]}"
+map_seed10.png_person2,map_seed10.png,10,person2,east,"起点: 咖啡厅
+终点: 寿司店
+初始朝向: east
+导航指令: 从咖啡厅出发，向东行走，走到路的尽头后向南走，一直走到文具店，在文具店向西行走。看到医院后向南走到学校，走到学校后向西一直走就能看见寿司店。","{""commands"": [""start('咖啡厅', 'east')"", ""move_to_end()"", ""turn_right()"", ""detect('文具店')"", ""turn_right()"", ""detect('医院')"", ""turn_left()"", ""detect('学校')"", ""turn_right()"",  ""stop('寿司店')""]}"
+map_seed10.png_person3,map_seed10.png,10,person3,south,"起点: 咖啡厅
+终点: 寿司店
+初始朝向: south
+导航指令: 向下走到尽头，再向右走到尽头，再向下走到第二个路口，再向左走到第一个路口，再向下走到尽头。再向左走5/7路程。","{""commands"": [""start('咖啡厅', 'south')"", ""move_to_end()"", ""turn_left()"", ""move_to_end()"",""turn_right()"",""move_forward()"", ""detect_intersection()"", ""move_forward()"",""detect_intersection()"", ""turn_right()"", ""move_forward()"",""detect_intersection()"",""turn_left()"", ""move_to_end()"", ""turn_right()"", ""move_forward()"",""stop('寿司店')""]}"
+map_seed16.png_person1,map_seed16.png,16,person1,west,"起点: 照相馆
+终点: 快餐店
+初始朝向: west
+导航指令: 起点是照相馆，向左手是比萨店的方向前进，到达药店，向左转，然后直行到第一个十字路口，向左转，直行到幼儿园，向右转，直行到左手边是面包店的路口，向右转，直行到居委会的路口向右转，直行到达快餐店，快餐店是终点","{""commands"": [
+  ""start('照相馆', 'west')"",
+  ""detect('药店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('居委会')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('快餐店')""
+]}"
+map_seed16.png_person2,map_seed16.png,16,person2,west,"起点: 照相馆
+终点: 快餐店
+初始朝向: west
+导航指令: 从照相馆出发，向西行走，看见药店后向南行走，在十字路口处，向东行走至幼儿园。从幼儿园后向南一直行走到路的尽头后向西走，在居委会和礼品店中间向北走就可以到达快餐店","{""commands"": [""start('照相馆', 'west')"", ""detect('药店')"", ""turn_left()"", ""move_forward()"",""detect_intersection()"", ""turn_left()"", ""detect('幼儿园')"", ""turn_right()"", ""move_to_end()"", ""turn_right()"", ""detect('居委会')"",""detect('礼品店')"", ""turn_right()"", ""stop('快餐店')""]}"
+map_seed16.png_person3,map_seed16.png,16,person3,south,"起点: 照相馆
+终点: 快餐店
+初始朝向: south
+导航指令: 向下走到尽头，再向左走到第一个路口，再向下走到第一个路口，再向右走到尽头，再向下走到尽头。再向左走到第一个路口，再向上走到尽头。","{""commands"": [""start('照相馆', 'south')"",  ""move_to_end()"", ""turn_right()"", ""move_forward()"",""detect_intersection()"", ""turn_left()"",""move_forward()"",  ""detect_intersection()"", ""turn_left()"", ""move_to_end()"", ""turn_right()"", ""move_to_end()"", ""turn_right()"", ""move_forward()"",""detect_intersection()"", ""turn_right()"", ""move_to_end()"", ""stop('快餐店')""]}"
+map_seed16.png_person4,map_seed16.png,16,person4,west,"起点: 照相馆
+终点: 快餐店
+初始朝向: west
+导航指令: 从照相馆出发，向西走到药店，向南走到加油站，向东走到幼儿园，向南走到面包店，向西走到礼品店，再向北走到快餐店。","{""commands"": [
+  ""start('照相馆', 'west')"",
+  ""detect('药店')"",
+  ""turn_left()"",
+  ""detect('加油站')"",
+  ""turn_left()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""turn_right()"",
+  ""stop('快餐店')""
+]}"
+map_seed16.png_person5,map_seed16.png,16,person5,west,"起点: 照相馆
+终点: 快餐店
+初始朝向: west
+导航指令: 背对照相馆，正对比萨店，向右手边出发，直走到停车场后再向左拐，看见十字路口之后再向左拐，直走到幼儿园之后再向右转。一路直走，走到面包店之后再向右转，看见居委会再向右转，直走，左手边就是快餐店。","{""commands"": [
+  ""start('照相馆', 'west')"",
+  ""detect('停车场')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""detect('居委会')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('快餐店')""
+]}"
+map_seed16.png_person6,map_seed16.png,16,person6,west,"起点: 照相馆
+终点: 快餐店
+初始朝向: west
+导航指令: 从照相馆出发，一路向西走，当看到药店前的路口时向南走，到达理发店前的十字路口时，再向东走到达幼儿园。接着向南走，一路走，到面包店时向西走，到达礼品店和居委会中间的路口时向北走，左手边就是快餐店。","{""commands"": [
+  ""start('照相馆', 'west')"",
+  ""detect('药店')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('理发店')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""detect('居委会')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('快餐店')""
+]}"
+map_seed17.png_person1,map_seed17.png,17,person1,west,"起点: 税务局
+终点: 书店
+初始朝向: west
+导航指令: 起点是税务局，向左手是鞋店右手是图书馆的方向前进，前进到火锅店，向左转，走到第一个三岔路口，向右转，一直直行，直行到右手是烧烤店的三岔路口，向左转，一直直行，直行到书店，左手边是书店,书店是终点","{""commands"": [""start('税务局', 'west')"", ""detect('火锅店')"", ""turn_left()"", ""move_forward()"",""detect_intersection()"", ""turn_right()"",""move_forward()"",""detect('烧烤店')"", ""detect_intersection()"", ""turn_left()"", ""move_forward()"",""stop('书店')""]}"
+map_seed17.png_person2,map_seed17.png,17,person2,west,"起点: 税务局
+终点: 书店
+初始朝向: west
+导航指令: 从税务局出发，向西行走至火锅店门口，再向南走，走至珠宝店，从珠宝店向西一直走在第二个路口，走到烧烤店。看见烧烤店后，向南一直走到路的尽头，就可以看到书店","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('火锅店')"",
+  ""turn_left()"",
+  ""detect('珠宝店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""detect('烧烤店')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""stop('书店')""
+]}"
+map_seed17.png_person3,map_seed17.png,17,person3,north,"起点: 税务局
+终点: 书店
+初始朝向: north
+导航指令: 向上走到尽头，再向左走到尽头，再向下走到第一个路口，再向左走到第二个路口，再向下走到尽头。","{""commands"": [
+  ""start('税务局', 'north')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""stop('书店')""
+]}"
+map_seed17.png_person4,map_seed17.png,17,person4,west,"起点: 税务局
+终点: 书店
+初始朝向: west
+导航指令: 从税务局出发，向西走到火锅店，向南走到牙科，向西走到市场，再向南走到书店。","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('火锅店')"",
+  ""turn_left()"",
+  ""detect('牙科')"",
+  ""turn_right()"",
+  ""detect('市场')"",
+  ""turn_left()"",
+  ""stop('书店')""
+]}"
+map_seed17.png_person5,map_seed17.png,17,person5,west,"起点: 税务局
+终点: 书店
+初始朝向: west
+导航指令: 背对税务局，向左出发，看见火锅店，左转，走到第一个路口，向右转，直走，看到ATM，再向左转，走到尽头就是书店。","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('火锅店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('ATM')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""stop('书店')""
+]}"
+map_seed17.png_person6,map_seed17.png,17,person6,west,"起点: 税务局
+终点: 书店
+初始朝向: west
+导航指令: 从税务局出发，向西走到达火锅店，接着向南走，在珠宝店前的路口处向西走到达烧烤店，到烧烤店前的路口时向南走。左手边就可看到书店。","{""commands"": [""start('税务局', 'west')"", ""detect('火锅店')"", ""turn_left()"", ""detect('珠宝店')"",""detect_intersection()"", ""turn_right()"", ""detect('烧烤店')"", ""detect_intersection()"",""turn_left()"", ""stop('书店')""]}"
+map_seed19.png_person1,map_seed19.png,19,person1,west,"起点: 法院
+终点: 五金店
+初始朝向: west
+导航指令: 起点是法院，向左右手边都是清真寺的方向前进，走到第一个十字路口，向右转，走到玩具店，向左转，一直直行，直行到加油站，向左转，直行到粥店，向右转，到达尽头，左手边是五金店，终点是五金店","{""commands"": [
+  ""start('法院', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('玩具店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('加油站')"",
+  ""turn_left()"",
+  ""detect('粥店')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('五金店')""
+]}"
+map_seed19.png_person2,map_seed19.png,19,person2,west,"起点: 法院
+终点: 五金店
+初始朝向: west
+导航指令: 从法院出发，向西行走至十字路口处，向北行走，看见玩具店后，向西一直走，一直走到。学校附近，从学校处向南行走至路的尽头会看到停车场，从停车场向西行走就可以到达五金店","{""commands"": [
+  ""start('法院', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('玩具店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('学校')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""detect('停车场')"",
+  ""turn_right()"",
+  ""stop('五金店')""
+]}"
+map_seed19.png_person3,map_seed19.png,19,person3,north,"起点: 法院
+终点: 五金店
+初始朝向: north
+导航指令: 向上走到尽头，再向左走到第一个路口，再向上走到尽头，再向左走到尽头，再向下走到尽头，再向左走到尽头。","{""commands"": [
+  ""start('法院', 'north')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('五金店')""
+]}"
+map_seed19.png_person4,map_seed19.png,19,person4,west,"起点: 法院
+终点: 五金店
+初始朝向: west
+导航指令: 从法院出发，向西走到清真寺，向北走到图书馆，向西走到学校，向南走到粥店，最后向西走到五金店。","{""commands"": [
+  ""start('法院', 'west')"",
+  ""detect('清真寺')"",
+  ""turn_right()"",
+  ""detect('图书馆')"",
+  ""turn_left()"",
+  ""detect('学校')"",
+  ""turn_left()"",
+  ""detect('粥店')"",
+  ""turn_right()"",
+  ""stop('五金店')""
+]}"
+map_seed19.png_person6,map_seed19.png,19,person6,west,"起点: 法院
+终点: 五金店
+初始朝向: west
+导航指令: 从法院出发向西走，到达第一个十字路口时向北走，一直走到玩具店处再向西走，一直走到加油站处再向南走，走到粥店时再向西走。左手边就是五金店。","{""commands"": [
+  ""start('法院', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('玩具店')"",
+  ""turn_left()"",
+  ""detect('加油站')"",
+  ""turn_left()"",
+  ""detect('粥店')"",
+  ""turn_right()"",
+  ""stop('五金店')""
+]}"
+map_seed20.png_person1,map_seed20.png,20,person1,north,"起点: 市场
+终点: 家具店
+初始朝向: north
+导航指令: 起点是市场，向左手边是大学的方向前进，走到右手边是培训班的三叉路口，向左转，直行，走到第一个三叉路口，向左转，直行到旅行社，向右转，直行到第一个十字路口，向右转，直行到左边是家具店的尽头，家具店是终点","{""commands"": [
+  ""start('市场', 'north')"",
+  ""move_forward()"",
+  ""detect('培训班')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('旅行社')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('家具店')""
+]}"
+map_seed20.png_person2,map_seed20.png,20,person2,north,"起点: 市场
+终点: 家具店
+初始朝向: north
+导航指令: 从市场出发，向北行走至培训班，再向西行走至篮球场，走至篮球场后，接着向南行走至旅行社门口后。向西行走至十字路口处，接着向北行走就可以到达家具店","{""commands"": [
+  ""start('市场', 'north')"",
+  ""detect('培训班')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('篮球场')"",
+  ""turn_left()"",
+  ""detect('旅行社')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('家具店')""
+]}"
+map_seed20.png_person3,map_seed20.png,20,person3,north,"起点: 市场
+终点: 家具店
+初始朝向: north
+导航指令: 向上走到第一个路口，再向左走到第一个路口，再向下走到尽头，再向左走到第一个路口。再向上走到尽头。","{""commands"": [
+  ""start('市场', 'north')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('家具店')""
+]}"
+map_seed20.png_person4,map_seed20.png,20,person4,north,"起点: 市场
+终点: 家具店
+初始朝向: north
+导航指令: 从市场出发，向北走到广场，向西走到粥店，向南走到旅行社，向西走到中医馆，再向北走到家具店。","{""commands"": [
+  ""start('市场', 'north')"",
+  ""detect('广场')"",
+  ""turn_left()"",
+  ""detect('粥店')"",
+  ""turn_left()"",
+  ""detect('旅行社')"",
+  ""turn_right()"",
+  ""detect('中医馆')"",
+  ""turn_right()"",
+  ""stop('家具店')""
+]}"
+map_seed20.png_person6,map_seed20.png,20,person6,north,"起点: 市场
+终点: 家具店
+初始朝向: north
+导航指令: 从市场出发向北走，到达培训班前的路口时再向西走，到达粥店的路口时再向南走。会到达旅行社，接着再向西走，到达十字路口时再向北走，家具店在左手边。","{
+  ""commands"": [
+    ""start('市场', 'north')"",
+    ""detect('培训班')"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('粥店')"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('旅行社')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""stop('家具店')""
+  ]
+}"
+map_seed25.png_person1,map_seed25.png,25,person1,north,"起点: 中医馆
+终点: 书法班
+初始朝向: north
+导航指令: 起点是中医馆，向右手是中医馆的方向前进，走到左手是快餐店的路口，向右转，走到奶茶店，向右转，一直直走，走到左手边是书法班的终点，书法班是终点","{
+  ""commands"": [
+    ""start('中医馆', 'north')"",
+    ""detect('快餐店')"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""detect('奶茶店')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""stop('书法班')""
+  ]
+}"
+map_seed25.png_person4,map_seed25.png,25,person4,north,"起点: 中医馆
+终点: 书法班
+初始朝向: north
+导航指令: 从中医馆出发，向北走到快餐店，向东走到奶茶店，再向南走到书法班。","{""commands"": [
+  ""start('中医馆', 'north')"",
+  ""detect('快餐店')"",
+  ""turn_right()"",
+  ""detect('奶茶店')"",
+  ""turn_right()"",
+  ""stop('书法班')""
+]}"
+map_seed25.png_person5,map_seed25.png,25,person5,north,"起点: 中医馆
+终点: 书法班
+初始朝向: north
+导航指令: 背对中医馆，向右手边出发直走，看见快餐店之后右转，看见奶茶店之后再右转，一路直走到书法班。","{
+  ""commands"": [
+    ""start('中医馆', 'north')"",
+    ""move_forward()"",
+    ""detect('快餐店')"",
+    ""turn_right()"",
+    ""detect('奶茶店')"",
+    ""turn_right()"",
+    ""stop('书法班')""
+  ]
+}"
+map_seed25.png_person6,map_seed25.png,25,person6,north,"起点: 中医馆
+终点: 书法班
+初始朝向: north
+导航指令: 从中医馆出发，向北走，一路走到快餐店前的路口时，再向东走到达奶茶店，接着再向南走，一直往前走，途中经过游乐场，经过旅行社，在左手边可看到书法班。","{""commands"": [""start('中医馆', 'north')"", ""detect('快餐店')"", ""detect_intersection()"",""turn_right()"", ""detect('奶茶店')"", ""turn_right()"", ""move_forward()"",""detect('游乐场')"",""detect('旅行社')"",""stop('书法班')""]}"
+map_seed28.png_person1,map_seed28.png,28,person1,east,"起点: 餐厅
+终点: 饺子馆
+初始朝向: east
+导航指令: 起点是餐厅，向左手边是餐厅的方向前进，走到尽头，到达文具店，向左转，走到左手边是饺子馆的地方，停止，终点是饺子馆","{""commands"": [
+  ""start('餐厅', 'east')"",
+  ""move_to_end()"",
+  ""detect('文具店')"",
+  ""turn_left()"",
+  ""stop('饺子馆')""
+]}"
+map_seed28.png_person2,map_seed28.png,28,person2,east,"起点: 餐厅
+终点: 饺子馆
+初始朝向: east
+导航指令: 从餐厅出发，一直向东行走，走至文具店后向北直走，经过一个路口后，在第二个路口处就可以到达饺子馆","{""commands"": [
+  ""start('餐厅', 'east')"",
+  ""detect('文具店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('饺子馆')""
+]}"
+map_seed28.png_person3,map_seed28.png,28,person3,south,"起点: 餐厅
+终点: 饺子馆
+初始朝向: south
+导航指令: 向下走到尽头，再向右走到尽头，再向上走到第二个路口。","{""commands"": [
+  ""start('餐厅', 'south')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('饺子馆')""
+]}"
+map_seed28.png_person4,map_seed28.png,28,person4,east,"起点: 餐厅
+终点: 饺子馆
+初始朝向: east
+导航指令: 从餐厅出发，向东走到文具店，再向北走到饺子馆。","{""commands"": [
+  ""start('餐厅', 'east')"",
+  ""detect('文具店')"",
+  ""turn_left()"",
+  ""stop('饺子馆')""
+]}"
+map_seed28.png_person5,map_seed28.png,28,person5,east,"起点: 餐厅
+终点: 饺子馆
+初始朝向: east
+导航指令: 背对餐厅，向左手边出发，一路直走，看见文具店之后，再向左拐，再直走，就能看见饺子馆了。","{""commands"": [
+  ""start('餐厅', 'east')"",
+  ""move_forward()"",
+  ""detect('文具店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""stop('饺子馆')""
+]}"
+map_seed28.png_person6,map_seed28.png,28,person6,east,"起点: 餐厅
+终点: 饺子馆
+初始朝向: east
+导航指令: 从餐厅出发，一路向东走，到达文具店时再向北走。就在左手边，可看到饺子馆。","{""commands"": [""start('餐厅', 'east')"", ""detect('文具店')"", ""turn_left()"", ""stop('饺子馆')""]}"
+map_seed30.png_person2,map_seed30.png,30,person2,south,"起点: 礼品店
+终点: 服装店
+初始朝向: south
+导航指令: 从礼品店出发，向南行走，走至幼儿园处，向西一直走，经过第一个路口会到达旅行社，从旅行社向北直走。在第一个路口处向西行走，经过五金店便可到达服装店","{
+  ""commands"": [
+    ""start('礼品店', 'south')"",
+    ""detect('幼儿园')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""move_forward()"",
+    ""detect('旅行社')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('五金店')"",
+    ""stop('服装店')""
+  ]
+}"
+map_seed30.png_person3,map_seed30.png,30,person3,east,"起点: 礼品店
+终点: 服装店
+初始朝向: east
+导航指令: 向右走到尽头，再向下走到尽头，再向左走到尽头，再向上走到第一个路口，再向左走到尽头。","{""commands"": [
+  ""start('礼品店', 'east')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""stop('服装店')""
+]}"
+map_seed30.png_person4,map_seed30.png,30,person4,south,"起点: 礼品店
+终点: 服装店
+初始朝向: south
+导航指令: 从礼品店出发，向南走到幼儿园，向西走到旅行社，向北走到饺子馆，向西走到服装店。","{""commands"": [""start('礼品店', 'south')"", ""detect('幼儿园')"", ""turn_right()"", ""detect('旅行社')"", ""turn_right()"", ""detect('饺子馆')"", ""turn_left()"", ""stop('服装店')""]}"
+map_seed30.png_person5,map_seed30.png,30,person5,south,"起点: 礼品店
+终点: 服装店
+初始朝向: south
+导航指令: 背对礼品店，正对警察局，向右手边出发，一路直走，到第一个路口后再向右转，再直走，看见旅行社之后再向右转，走到十字路口后再向左转，往前走一段距离，就是你要找的服装店。","{""commands"": [
+  ""start('礼品店', 'south')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('旅行社')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""stop('服装店')""
+]}"
+map_seed30.png_person6,map_seed30.png,30,person6,south,"起点: 礼品店
+终点: 服装店
+初始朝向: south
+导航指令: 从礼品店出发，一路向南走到达幼儿园，接着再向西走，一直走到旅行社后再向北走，到达十字路口时向西走。左手边可看到服装店。","{""commands"": [
+  ""start('礼品店', 'south')"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('旅行社')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""stop('服装店')""
+]}"
+map_seed32.png_person1,map_seed32.png,32,person1,north,"起点: 火锅店
+终点: 剧院
+初始朝向: north
+导航指令: 起点是火锅店，附近有博物馆，向博物馆在左手的方向前进，直行走到书店，向左转走到第一个三叉路口，向右转直行到邮局，向左转走到尽头，向右转走到尽头，向右转走到便利店，向右转直行到邮局，向左转直行到玩具店，向左转走到尽头，向右转直行到礼品店，向右转一直直行走到剧院，在左手边，剧院是终点","{""commands"": [
+  ""start('火锅店', 'north')"",
+  ""detect('书店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('邮局')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""detect('邮局')"",
+  ""turn_left()"",
+  ""detect('玩具店')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""turn_right()"",
+  ""stop('剧院')""
+]}"
+map_seed32.png_person3,map_seed32.png,32,person3,north,"起点: 火锅店
+终点: 剧院
+初始朝向: north
+导航指令: 向上走到尽头，再向左走到第一个路口，再向上走到尽头，再向左走到尽头，再向上走到尽头。再向右走到尽头，再向下走到尽头，再向右走到尽头，再向上走到尽头，再向右走到尽头，再向下走到第三个路口。","{""commands"": [
+  ""start('火锅店', 'north')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('剧院')""
+]}"
+map_seed32.png_person4,map_seed32.png,32,person4,north,"起点: 火锅店
+终点: 剧院
+初始朝向: north
+导航指令: 从火锅店出发，向北走到幼儿园，向西走到公交站，向北走到邮局，向西走到商场，向北走到培训班，向东走到便利店，向南走到邮局，向东走到玩具店，向北走到家具店，再向东走到礼品店，再向南走到剧院。","{""commands"": [
+  ""start('火锅店', 'north')"",
+  ""detect('幼儿园')"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_right()"",
+  ""detect('邮局')"",
+  ""turn_left()"",
+  ""detect('商场')"",
+  ""turn_right()"",
+  ""detect('培训班')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""detect('邮局')"",
+  ""turn_left()"",
+  ""detect('玩具店')"",
+  ""turn_left()"",
+  ""detect('家具店')"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""turn_right()"",
+  ""stop('剧院')""
+]}"
+map_seed33.png_person2,map_seed33.png,33,person2,north,"起点: 牙科
+终点: 便利店
+初始朝向: north
+导航指令: 从牙科出发，向北行走至第一个路口，在照相馆处向西行走，经过一个路口，在第二个路口看到大学后向南一直行走。直走至看到医院后，向西一直走，走到植物园门口，向南直走至路的尽头，就可到达便利店","{""commands"": [
+  ""start('牙科', 'north')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""detect('照相馆')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""detect('大学')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('医院')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('植物园')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""stop('便利店')""
+]}"
+map_seed33.png_person4,map_seed33.png,33,person4,north,"起点: 牙科
+终点: 便利店
+初始朝向: north
+导航指令: 从牙科出发，向北走到照相馆，向西走到清真寺，再向南走到医院，再向西走到书法班。再向南走到便利店。","{""commands"": [""start('牙科', 'north')"", ""detect('照相馆')"", ""turn_left()"", ""detect('清真寺')"", ""turn_left()"", ""detect('医院')"", ""turn_right()"", ""detect('书法班')"", ""turn_left()"", ""stop('便利店')""]}"
+map_seed33.png_person5,map_seed33.png,33,person5,north,"起点: 牙科
+终点: 便利店
+初始朝向: north
+导航指令: 背对牙科向左手边出发，看见医院之后再向左手边转，直走，看见清真寺再向左手边转。直走，看见医院，再向右手边转，直走看见植物园，再向左转，直走就到便利店。","{
+  ""commands"": [
+    ""start('牙科', 'north')"",
+    ""detect('医院')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect('清真寺')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect('医院')"",
+    ""turn_right()"",
+    ""detect('植物园')"",
+    ""turn_left()"",
+    ""stop('便利店')""
+  ]
+}"
+map_seed33.png_person6,map_seed33.png,33,person6,north,"起点: 牙科
+终点: 便利店
+初始朝向: north
+导航指令: 从牙科出来，一直向北走，到达医院前的路口是在向西走，一直走到炸鸡店处的十字路口处，接着向南走。一直走到诊所处前的十字路口时再向西走，到达眼科前的十字路口时再向南走，便利店就在左手边。","{""commands"": [
+  ""start('牙科', 'north')"",
+  ""detect('医院')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('炸鸡店')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('诊所')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('眼科')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""stop('便利店')""
+]}"
+map_seed35.png_person1,map_seed35.png,35,person1,north,"起点: 医院
+终点: 中医馆
+初始朝向: north
+导航指令: 起点是医院，向左手是医院的方向前进，走到尽头，向右转，走到警察局，向右转，走到尽头，火锅店，向右转，走到第一个三叉路口，向左转，走到尽头，到达教堂，向左转，走到尽头，到达餐厅，向左转，直行到达，火锅店，向右转，走到尽头，到达五金店，向左转，直行到左手边是中医馆的地方，中医馆是终点","{
+  ""commands"": [
+    ""start('医院', 'north')"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""detect('警察局')"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""detect('火锅店')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""detect('教堂')"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""detect('餐厅')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect('火锅店')"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""detect('五金店')"",
+    ""turn_left()"",
+    ""stop('中医馆')""
+  ]
+}"
+map_seed35.png_person2,map_seed35.png,35,person2,north,"起点: 医院
+终点: 中医馆
+初始朝向: north
+导航指令: 从医院出发，向北行走至便当店，接着向东一直走，到警察局后向南一直行走，看到火锅店后向西走至鞋店。从鞋店向南一直直走，看到教堂后向东走，走到餐厅和快餐店时向北行走，看到火锅店。接着向东走，一直走到五金店后向北行走，经过第一个路口就可以到达中医馆","{""commands"": [
+  ""start('医院', 'north')"",
+  ""detect('便当店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('鞋店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('教堂')"",
+  ""turn_left()"",
+  ""detect('餐厅')"",
+  ""detect('快餐店')"",
+  ""turn_left()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('中医馆')""
+]}"
+map_seed35.png_person3,map_seed35.png,35,person3,north,"起点: 医院
+终点: 中医馆
+初始朝向: north
+导航指令: 向上走到尽头，再向右走到尽头，再向下走到尽头，再向左走到第一个路口，再向下走到尽头，再向右走到尽头，再向上走到尽头，再向右走到尽头，再向上走到第一个路口。","{""commands"": [
+  ""start('医院', 'north')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('中医馆')""
+]}"
+map_seed35.png_person4,map_seed35.png,35,person4,north,"起点: 医院
+终点: 中医馆
+初始朝向: north
+导航指令: 从医院出发，向北走到便当店，向东走到警察局，向南走到火锅店，向西走到KTV。向南走到教堂，向东走到快餐店，向北走到火锅店，向东走到五金店，再向北走到中医馆。","{""commands"": [
+  ""start('医院', 'north')"",
+  ""detect('便当店')"",
+  ""turn_right()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('KTV')"",
+  ""turn_left()"",
+  ""detect('教堂')"",
+  ""turn_left()"",
+  ""detect('快餐店')"",
+  ""turn_left()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_left()"",
+  ""stop('中医馆')""
+]}"
+map_seed35.png_person6,map_seed35.png,35,person6,north,"起点: 医院
+终点: 中医馆
+初始朝向: north
+导航指令: 从医院出发向北走，到便当店前的路口时再向东走，到达警察局接着向南走，走到火锅店再向西走，到达鞋店处时再向南走。一直走到教堂，接着向东走到达餐厅，再向北走到达火锅店，然后再向东走到达五金店，再向北走到中医馆。","{""commands"": [
+  ""start('医院', 'north')"",
+  ""detect('便当店')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('鞋店')"",
+  ""turn_left()"",
+  ""detect('教堂')"",
+  ""turn_left()"",
+  ""detect('餐厅')"",
+  ""turn_left()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_left()"",
+  ""stop('中医馆')""
+]}"
+map_seed36.png_person2,map_seed36.png,36,person2,north,"起点: 书法班
+终点: 植物园
+初始朝向: north
+导航指令: 从书法班出发，向北行走至路的尽头后向西一直走至游乐场，从游乐场向南走，在第一个路口处向西,走至拉面店门口后，接着向南行走，看到邮局后，向西走至警察局，从警察局处向南一直走到游泳馆，接着向东走至科技馆。从科技馆向南出发，走到法院后，向东走可以看到家具店，从家具店向北一直走至第一个路口，会看到篮球场。从篮球场向东走，经过诊所就可以看到植物园","{
+  ""commands"": [
+    ""start('书法班', 'north')"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""detect('游乐场')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""detect('拉面店')"",
+    ""turn_left()"",
+    ""detect('邮局')"",
+    ""turn_right()"",
+    ""detect('警察局')"",
+    ""turn_left()"",
+    ""detect('游泳馆')"",
+    ""turn_left()"",
+    ""detect('科技馆')"",
+    ""turn_right()"",
+    ""detect('法院')"",
+    ""turn_left()"",
+    ""detect('家具店')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""detect('篮球场')"",
+    ""turn_right()"",
+    ""stop('植物园')""
+  ]
+}"
+map_seed39.png_person3,map_seed39.png,39,person3,south,"起点: KTV
+终点: 充电站
+初始朝向: south
+导航指令: 向下走到尽头，再向左走到第一个路口，再向下走到尽头，再向右走到尽头，再向下走到尽头。再向左走到尽头，再向下走到尽头，再向右走到尽头，再向上走到尽头，再向右走1/5的路程。","{""commands"": [
+  ""start('KTV', 'south')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('充电站')""
+]}"
+map_seed39.png_person4,map_seed39.png,39,person4,south,"起点: KTV
+终点: 充电站
+初始朝向: south
+导航指令: 从KTV出发，向南走到玩具店，向西走到寺庙，向南走到台球厅，向东走到植物园，向南走到剧院。向西走到渡口，再向南走到拐角，向东走到台球厅，再向北走到礼品店。最后向东走到充电站。","{""commands"": [
+  ""start('KTV', 'south')"",
+  ""detect('玩具店')"",
+  ""turn_right()"",
+  ""detect('寺庙')"",
+  ""turn_left()"",
+  ""detect('台球厅')"",
+  ""turn_left()"",
+  ""detect('植物园')"",
+  ""turn_right()"",
+  ""detect('剧院')"",
+  ""turn_right()"",
+  ""detect('渡口')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('台球厅')"",
+  ""turn_left()"",
+  ""detect('礼品店')"",
+  ""turn_right()"",
+  ""stop('充电站')""
+]}"
+map_seed40.png_person1,map_seed40.png,40,person1,west,"起点: 便当店
+终点: 饺子馆
+初始朝向: west
+导航指令: 起点是便当店，向左手是文具店的方向前进，到达第一个十字路口，向左转，走到尽头，尽头是商场，向右转，走到尽头，尽头是游乐场，向右转，直行到民宿，向左转，直行到第一个十字路口，向左转，直行到第一个三叉路口，向右转，直行到饺子馆，在右手边的是终点，终点是饺子馆","{""commands"": [
+  ""start('便当店', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""detect('商场')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""detect('游乐场')"",
+  ""turn_right()"",
+  ""detect('民宿')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('饺子馆')""
+]}"
+map_seed40.png_person2,map_seed40.png,40,person2,west,"起点: 便当店
+终点: 饺子馆
+初始朝向: west
+导航指令: 从便当店出发，向西行走至第一个十字路口处，向南一直走到商场，从商场出发向西行走，走至游乐场附近后向北一直行走至民宿，从民宿向西行走，在第一个路口处向南走到菜市场，从菜市场向西行走，经过游泳馆。到达饺子馆","{
+  ""commands"": [
+    ""start('便当店', 'west')"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('商场')"",
+    ""turn_right()"",
+    ""detect('游乐场')"",
+    ""turn_right()"",
+    ""detect('民宿')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('菜市场')"",
+    ""turn_right()"",
+    ""detect('游泳馆')"",
+    ""stop('饺子馆')""
+  ]
+}"
+map_seed40.png_person3,map_seed40.png,40,person3,west,"起点: 便当店
+终点: 饺子馆
+初始朝向: west
+导航指令: 向左走到第一个路口，再向下走到尽头，再向左走到尽头，再向上走到尽头，再向左走到第一个路口。再向下走到第一个路口，再向左走1/2路程。","{""commands"": [
+  ""start('便当店', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+   ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('饺子馆')""
+]}"
+map_seed40.png_person6,map_seed40.png,40,person6,west,"起点: 便当店
+终点: 饺子馆
+初始朝向: west
+导航指令: 从便当店出发，一路向西走，走到第一个十字路口时向南走，一直走到商场，接着再向西走，走到游乐场时向北走，走到民宿时向西走，走到十字路口处时再向南走，走到菜市场时向西走，饺子馆就在右手边。","{""commands"": [
+  ""start('便当店', 'west')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('商场')"",
+  ""turn_right()"",
+  ""detect('游乐场')"",
+  ""turn_right()"",
+  ""detect('民宿')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('菜市场')"",
+  ""turn_right()"",
+  ""stop('饺子馆')""
+]}"
+map_seed41.png_person2,map_seed41.png,41,person2,south,"起点: 小吃店
+终点: 市场
+初始朝向: south
+导航指令: 从小吃店出发，向南一直行走至第一个十字路口处，走到奶茶店附近后，向西行走至服装店，从服装店向北一直走至礼品店，接着向西走至路的尽头后，向北一直走至大学，从大学向东行走，经过第一个十字路口后到达市场","{""commands"": [
+  ""start('小吃店', 'south')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""detect('奶茶店')"",
+  ""turn_right()"",
+  ""detect('服装店')"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""detect('大学')"",
+  ""turn_right()"",
+ ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('市场')""
+]}"
+map_seed41.png_person3,map_seed41.png,41,person3,south,"起点: 小吃店
+终点: 市场
+初始朝向: south
+导航指令: 向下走到第一个路口，再向左走到尽头，再向上走到尽头，再向左走到尽头，再向上走到尽头，再向右走到第一个路口。","{""commands"": [
+  ""start('小吃店', 'south')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('市场')""
+]}"
+map_seed41.png_person4,map_seed41.png,41,person4,south,"起点: 小吃店
+终点: 市场
+初始朝向: south
+导航指令: 从小吃店出发，向南走到书法班，向西走到服装店，向北走到礼品店，向西走到T字口，向北走到大学，向东走到市场。","{""commands"": [
+    ""start('小吃店', 'south')"",
+    ""detect('书法班')"",
+    ""turn_right()"",
+    ""detect('服装店')"",
+    ""turn_right()"",
+    ""detect('礼品店')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""detect('大学')"",
+    ""turn_right()"",
+    ""stop('市场')""
+]}"
+map_seed41.png_person6,map_seed41.png,41,person6,south,"起点: 小吃店
+终点: 市场
+初始朝向: south
+导航指令: 从小吃店出发，一直往南走，走到奶茶店旁的十字路口时向西走，走到服装店时再向北走，到达礼品店接着再向西走，到达路口时向北走，走到大学处。接着再向东走，市场就在经过第一个路口的左手边。","{""commands"": [
+  ""start('小吃店', 'south')"",
+  ""detect('奶茶店')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('服装店')"",
+  ""turn_right()"",
+  ""detect('礼品店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('大学')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('市场')""
+]}"
+map_seed43.png_person1,map_seed43.png,43,person1,west,"起点: 茶餐厅
+终点: 市政厅
+初始朝向: west
+导航指令: 起点是茶餐厅，向民宿前进，到达民宿，向右转，走到广场，向左转，直行到尽头，向右转，一直直行走到市政厅，在右手边的地方停下来，终点是市政厅","{""commands"": [
+  ""start('茶餐厅', 'west')"",
+  ""detect('民宿')"",
+  ""turn_right()"",
+  ""detect('广场')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""stop('市政厅')""
+]}"
+map_seed43.png_person2,map_seed43.png,43,person2,west,"起点: 茶餐厅
+终点: 市政厅
+初始朝向: west
+导航指令: 从茶餐厅出发，先向西走至民宿，后向北走至广场，接着向西走至路的尽头，一直再向北，沿路一直经走，经过诊所到达市政厅","{""commands"": [
+  ""start('茶餐厅', 'west')"",
+  ""detect('民宿')"",
+  ""turn_right()"",
+  ""detect('广场')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('诊所')"",
+  ""stop('市政厅')""
+]}"
+map_seed43.png_person3,map_seed43.png,43,person3,north,"起点: 茶餐厅
+终点: 市政厅
+初始朝向: north
+导航指令: 向上走到尽头，再向左走到尽头，再向上走到尽头，再向左走到尽头，再向上走1/2路程。","{""commands"": [
+  ""start('茶餐厅', 'north')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('市政厅')""
+]}"
+map_seed43.png_person4,map_seed43.png,43,person4,west,"起点: 茶餐厅
+终点: 市政厅
+初始朝向: west
+导航指令: 从茶餐厅出发，向西走到民宿，向北走到广场，向西走到T字口的手机店，再向北走到市政厅。","{""commands"": [
+  ""start('茶餐厅', 'west')"",
+  ""detect('民宿')"",
+  ""turn_right()"",
+  ""detect('广场')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""detect('手机店')"",
+  ""turn_right()"",
+  ""stop('市政厅')""
+]}"
+map_seed43.png_person6,map_seed43.png,43,person6,west,"起点: 茶餐厅
+终点: 市政厅
+初始朝向: west
+导航指令: 从茶餐厅出发，先向西走到达民宿，接着再向北走，一直走到广场，再向西走到手机店处的路口处时再向北走，途中经过充电站和诊所，然后市政府就在你的右手边。","{""commands"": [
+  ""start('茶餐厅', 'west')"",
+  ""detect('民宿')"",
+  ""turn_right()"",
+  ""detect('广场')"",
+  ""turn_left()"",
+  ""detect('手机店')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('充电站')"",
+  ""detect('诊所')"",
+  ""stop('市政厅')""
+]}"
+map_seed46.png_person1,map_seed46.png,46,person1,west,"起点: 税务局
+终点: 酒店
+初始朝向: west
+导航指令: 出发点是税务局，向渡口在右手边的方向前进，到达美容院，向右转，一直直行到左手边是酒店的方向停下，酒店是终点","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('美容院')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('酒店')""
+]}"
+map_seed46.png_person2,map_seed46.png,46,person2,west,"起点: 税务局
+终点: 酒店
+初始朝向: west
+导航指令: 从税务局出发，先向西行走至美容院，接着向北一直走，经过两个路口后便可到达酒店","{""commands"": [""start('税务局', 'west')"", ""detect('美容院')"", ""turn_right()"", ""move_forward()"",""detect_intersection()"",""move_forward()"", ""detect_intersection()"", ""stop('酒店')""]}"
+map_seed46.png_person3,map_seed46.png,46,person3,south,"起点: 税务局
+终点: 酒店
+初始朝向: south
+导航指令: 向下走到尽头，再向左走到尽头，再向上走到第二个路口和第三个路口的中间。","{""commands"": [
+  ""start('税务局', 'south')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('酒店')""
+]}"
+map_seed46.png_person4,map_seed46.png,46,person4,west,"起点: 税务局
+终点: 酒店
+初始朝向: west
+导航指令: 从税务局出发，向西走到美容院，向北走到酒店。","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('美容院')"",
+  ""turn_right()"",
+  ""stop('酒店')""
+]}"
+map_seed46.png_person5,map_seed46.png,46,person5,west,"起点: 税务局
+终点: 酒店
+初始朝向: west
+导航指令: 背对税务局，向右手边出发，看见美容院，再向右转，一路直走，就能看见酒店在你的左手边。","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('美容院')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('酒店')""
+]}"
+map_seed46.png_person6,map_seed46.png,46,person6,west,"起点: 税务局
+终点: 酒店
+初始朝向: west
+导航指令: 从税务局出发，先向西走，一直走到美容院，接着一路向北走，途中会经过打印店，会经过理发店，然后酒店就在你的左手边。","{""commands"": [
+  ""start('税务局', 'west')"",
+  ""detect('美容院')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect('打印店')"",
+  ""detect('理发店')"",
+  ""stop('酒店')""
+]}"
+map_seed47.png_person2,map_seed47.png,47,person2,south,"起点: 寿司店
+终点: 粥店
+初始朝向: south
+导航指令: 从寿司店出发，向南走至甜品店后，向西走到ATM处，一直向南直走至炸鸡店，从炸鸡店向西走至五金店后，接着向北走至路的尽头后。向西行走至眼镜店和电影院的中间处，向南走到公交站，从公交站向西一直走到路的尽头处，向南一直走至礼品店，从礼品店向东。走在第一个路口处，向南走可以看到五金店。从五金店处向东走至寿司店后，接着向南走至面包店的门口，接着向东一直走到游泳馆的十字路口处向南走，走到路的尽头后向西一直走，看到眼科后向北一直走就可以到达粥店","{""commands"": [
+  ""start('寿司店', 'south')"",
+  ""detect('甜品店')"",
+  ""turn_right()"",
+  ""detect('ATM')"",
+  ""turn_left()"",
+  ""detect('炸鸡店')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""detect('眼镜店')"",
+  ""detect('电影院')"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""detect('礼品店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_left()"",
+  ""detect('寿司店')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""turn_left()"",
+  ""detect('游泳馆')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""detect('眼科')"",
+  ""turn_right()"",
+  ""stop('粥店')""
+]}"
+map_seed47.png_person3,map_seed47.png,47,person3,south,"起点: 寿司店
+终点: 粥店
+初始朝向: south
+导航指令: 向下走到第一个路口，再向左走到尽头，再向下走到头，再向左走到尽头，再向上走到尽头，再向左走到第一个路口。再向下走到尽头，再向左走到尽头，再向下走到尽头，再向右走到第一个路口，再向下走到尽头，再向右走到第一个路口。再向下走到第一个路口，再向右走到第一个路口，再向下走到尽头，再向左走到第一个路口，再向上走到尽头。","{""commands"": [
+  ""start('寿司店', 'south')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('粥店')""
+]}"
+map_seed47.png_person4,map_seed47.png,47,person4,west,"起点: 寿司店
+终点: 粥店
+初始朝向: west
+导航指令: 从寿司店出发，向西走到ATM，向南走到炸鸡店，向西走到五金店，向北走到眼镜店，向西走到电影院。向南走到公交站，向西走到充电站，向南走到礼品店，向东走到渡口，向南走到五金店，向东走到茶餐厅，向南走到面包店，向东走到游泳馆，向南走到广场，向西走到网球场，最后向北走到粥店。","{""commands"": [
+  ""start('寿司店', 'west')"",
+  ""detect('ATM')"",
+  ""turn_left()"",
+  ""detect('炸鸡店')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_right()"",
+  ""detect('眼镜店')"",
+  ""turn_left()"",
+  ""detect('电影院')"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_right()"",
+  ""detect('充电站')"",
+  ""turn_left()"",
+  ""detect('礼品店')"",
+  ""turn_left()"",
+  ""detect('渡口')"",
+  ""turn_right()"",
+  ""detect('五金店')"",
+  ""turn_left()"",
+  ""detect('茶餐厅')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""turn_left()"",
+  ""detect('游泳馆')"",
+  ""turn_right()"",
+  ""detect('广场')"",
+  ""turn_right()"",
+  ""detect('网球场')"",
+  ""turn_right()"",
+  ""stop('粥店')""
+]}"
+map_seed49.png_person2,map_seed49.png,49,person2,north,"起点: 消防站
+终点: 美术班
+初始朝向: north
+导航指令: 从消防站出发，向北行走至鞋店，接着向西走至路的尽头后，向北走在第一个路口处，向东一直走经过一个十字路口，在第二个路口处。向北一直走至炸鸡店，接着从炸鸡店的向东方向一直走，就可以到达美术班","{""commands"": [
+  ""start('消防站', 'north')"",
+  ""detect('鞋店')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('炸鸡店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('美术班')""
+]}"
+map_seed49.png_person3,map_seed49.png,49,person3,west,"起点: 消防站
+终点: 美术班
+初始朝向: west
+导航指令: 向左走到尽头，再向上走到尽头，再向左走到尽头，再向上走到第一个路口，向右走到第二个路口，再向上走到第一个路口，再向右走到尽头。","{""commands"": [
+  ""start('消防站', 'west')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('美术班')""
+]}"
+map_seed52.png_person2,map_seed52.png,52,person2,east,"起点: 诊所
+终点: 水果店
+初始朝向: east
+导航指令: 从诊所出发向东行走，走至地铁站后向北行走，在第一个路口处向西走，可以走到电影院，从电影院向北到达公园。接着向西一直走，至路的尽头后，向南一直走可以到达税务局，从税务局向东走，经过寺庙便可到达水果店","{""commands"": [
+  ""start('诊所', 'east')"",
+  ""detect('地铁站')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('电影院')"",
+  ""turn_right()"",
+  ""detect('公园')"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""detect('税务局')"",
+  ""turn_left()"",
+  ""detect('寺庙')"",
+  ""stop('水果店')""
+]}"
+map_seed52.png_person4,map_seed52.png,52,person4,east,"起点: 诊所
+终点: 水果店
+初始朝向: east
+导航指令: 从诊所出发，向东走到地铁站，向北走到ATM，向西走到电影院，向北走到公园，向西走到清真寺，向南走到税务局，向东走到水果店。","{""commands"": [
+  ""start('诊所', 'east')"",
+  ""detect('地铁站')"",
+  ""turn_left()"",
+  ""detect('ATM')"",
+  ""turn_left()"",
+  ""detect('电影院')"",
+  ""turn_right()"",
+  ""detect('公园')"",
+  ""turn_left()"",
+  ""detect('清真寺')"",
+  ""turn_left()"",
+  ""detect('税务局')"",
+  ""turn_left()"",
+  ""stop('水果店')""
+]}"
+map_seed52.png_person5,map_seed52.png,52,person5,east,"起点: 诊所
+终点: 水果店
+初始朝向: east
+导航指令: 背对诊所，向左手边出发，一路直走，看见地铁站之后左转，再直走,到十字路口后再向左转，直走到电影院，再向右转，直走到公园，再向左转，一路直走到清真寺。再向左转，一路直走到税务局，再向左转直走就到水果店。","{""commands"": [
+  ""start('诊所', 'east')"",
+  ""detect('地铁站')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('电影院')"",
+  ""turn_right()"",
+  ""detect('公园')"",
+  ""turn_left()"",
+  ""detect('清真寺')"",
+  ""turn_left()"",
+  ""detect('税务局')"",
+  ""turn_left()"",
+  ""stop('水果店')""
+]}"
+map_seed52.png_person6,map_seed52.png,52,person6,east,"起点: 诊所
+终点: 水果店
+初始朝向: east
+导航指令: 从诊所出发向东走，走到地铁站时再向北走，走到咖啡厅前的十字路口时向西走，到达电影院接着向北走，走到公园处时再向西走。一直往前走，走到火锅店的时候再向南走。走到税务局时再向东走，水果店就在左手边。","{""commands"": [
+  ""start('诊所', 'east')"",
+  ""detect('地铁站')"",
+  ""turn_left()"",
+  ""detect('咖啡厅')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('电影院')"",
+  ""turn_right()"",
+  ""detect('公园')"",
+  ""turn_left()"",
+ ""move_forward()"",
+  ""detect('火锅店')"",
+  ""turn_left()"",
+  ""detect('税务局')"",
+  ""turn_left()"",
+  ""stop('水果店')""
+]}"
+map_seed54.png_person1,map_seed54.png,54,person1,east,"起点: 珠宝店
+终点: 停车场
+初始朝向: east
+导航指令: 从珠宝店出发，向左手边是中医馆的方向前进，直行，到达尽头，左转，在第一个三叉路口，向左转，直行第一个十字路口，向右转，直行到达尽头，向左转，到在附近有珠宝店的方向三叉路口，向左转，直行到达附近有寿司店的三叉路口，向右转，直行尽头是快餐店，向左转，直行到达鞋店，向右转，直行到停车场在右手的方向停止，终点为停车场","{
+  ""commands"": [
+    ""start('珠宝店', 'east')"",
+    ""move_forward()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""detect('珠宝店')"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('寿司店')"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""detect('快餐店')"",
+    ""turn_left()"",
+    ""detect('鞋店')"",
+    ""turn_right()"",
+    ""stop('停车场')""
+  ]
+}"
+map_seed54.png_person3,map_seed54.png,54,person3,north,"起点: 珠宝店
+终点: 停车场
+初始朝向: north
+导航指令: 向上走到尽头，再向右走到尽头，再向上走到第一个路口，再向左走到第一个路口，再向上走到尽头，再向左走到第一个路口。再向下走到第二个路口，再向左走到尽头，再向下走到尽头，再向左走到尽头。","{""commands"": [
+  ""start('珠宝店', 'north')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""stop('停车场')""
+]}"
+map_seed54.png_person4,map_seed54.png,54,person4,east,"起点: 珠宝店
+终点: 停车场
+初始朝向: east
+导航指令: 从珠宝店出发，向东走到健身房，向北走到学校，向西走到理发店，向北走到面包店，向西走到珠宝店，向南走到寿司店，向西走到快餐店，向南走到鞋店，最后向西走到停车场。","{""commands"": [
+  ""start('珠宝店', 'east')"",
+  ""detect('健身房')"",
+  ""turn_left()"",
+  ""detect('学校')"",
+  ""turn_left()"",
+  ""detect('理发店')"",
+  ""turn_right()"",
+  ""detect('面包店')"",
+  ""turn_left()"",
+  ""detect('珠宝店')"",
+  ""turn_left()"",
+  ""detect('寿司店')"",
+  ""turn_right()"",
+  ""detect('快餐店')"",
+  ""turn_left()"",
+  ""detect('鞋店')"",
+  ""turn_right()"",
+  ""stop('停车场')""
+]}"
+map_seed58.png_person2,map_seed58.png,58,person2,east,"起点: 游乐场
+终点: 寿司店
+初始朝向: east
+导航指令: 从游乐场出发，向东行走在第二个路口处，向南行走至鞋店后，向西一直行走至便利店，接着向北走至汉堡店后。向西一直走至夜市，接着向南经行走在科技馆，到达科技馆后，向西一直走至便利店，从便利店向南出发。走至花店，接着向西走至市场，然后向南一直走至理发店，从理发店处向东行走至拉面店，接着向南一直走。看到诊所后向东一直走，经过十字路口便可到达寿司店","{
+  ""commands"": [
+    ""start('游乐场', 'east')"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""detect('鞋店')"",
+    ""turn_right()"",
+    ""detect('便利店')"",
+    ""turn_right()"",
+    ""detect('汉堡店')"",
+    ""turn_left()"",
+    ""detect('夜市')"",
+    ""turn_left()"",
+    ""detect('科技馆')"",
+    ""turn_right()"",
+    ""detect('便利店')"",
+    ""turn_left()"",
+    ""detect('花店')"",
+    ""turn_right()"",
+    ""detect('市场')"",
+    ""turn_left()"",
+    ""detect('理发店')"",
+    ""turn_left()"",
+    ""detect('拉面店')"",
+    ""turn_right()"",
+    ""detect('诊所')"",
+    ""turn_left()"",
+   ""move_forward()"",
+    ""detect_intersection()"",
+    ""stop('寿司店')""
+  ]
+}"
+map_seed58.png_person4,map_seed58.png,58,person4,east,"起点: 游乐场
+终点: 寿司店
+初始朝向: east
+导航指令: 从游乐场出发，向东走到清真寺，向南走到鞋店，向西走到便利店，向北走到汉堡店，向西走到夜市，向南走到游泳馆，向西走到便利店，向南走到花店，向西走到市场的T字口，向南走到理发店，向东走到拉面店，向南走到诊所，向东走到寿司店。","{""commands"": [
+  ""start('游乐场', 'east')"",
+  ""detect('清真寺')"",
+  ""turn_right()"",
+  ""detect('鞋店')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""detect('汉堡店')"",
+  ""turn_left()"",
+  ""detect('夜市')"",
+  ""turn_left()"",
+  ""detect('游泳馆')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_left()"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('市场')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('理发店')"",
+  ""turn_left()"",
+  ""detect('拉面店')"",
+  ""turn_right()"",
+  ""detect('诊所')"",
+  ""turn_left()"",
+  ""stop('寿司店')""
+]}"
+map_seed58.png_person6,map_seed58.png,58,person6,east,"起点: 游乐场
+终点: 寿司店
+初始朝向: east
+导航指令: 从游乐场出发，先向东走，走到清真寺前的路口时，向南走到达鞋店，再向西走到达便利店，再向北走到达汉堡店。接着向西走到达夜市，再往南走在科技馆前的路口处，向西走到达便利店，再向南走到达花店，再往西走，在市场前的路口处向南走，走到理发店，再往东走，到达拉面馆，接着往南走，到达诊所，然后再往东走，经过一个路口，寿司店就在右手边。","{""commands"": [
+  ""start('游乐场', 'east')"",
+  ""move_forward()"",
+  ""detect('清真寺')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('鞋店')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""detect('汉堡店')"",
+  ""turn_left()"",
+  ""detect('夜市')"",
+  ""turn_left()"",
+  ""detect('科技馆')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_left()"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('市场')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('理发店')"",
+  ""turn_left()"",
+  ""detect('拉面馆')"",
+  ""turn_right()"",
+  ""detect('诊所')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('寿司店')""
+]}"
+map_seed59.png_person2,map_seed59.png,59,person2,north,"起点: 网球场
+终点: 诊所
+初始朝向: north
+导航指令: 从网球场出发，向北行走，经在第二个路口处向西行走至植物园，接着向南走至动物园，然后向西行走在路口处，向南一直走到公交站，接着向东行走至博物馆后，向南走到便利店，从便利店向西，一直走，经过寺庙就可到达诊所","{""commands"": [
+  ""start('网球场', 'north')"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('植物园')"",
+  ""turn_left()"",
+  ""detect('动物园')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""detect('寺庙')"",
+  ""stop('诊所')""
+]}"
+map_seed59.png_person3,map_seed59.png,59,person3,west,"起点: 网球场
+终点: 诊所
+初始朝向: west
+导航指令: 向左走到尽头，再向上走到第二个路口，再向左走到第一个路口，再向下走到尽头，再向左走到第一个路口，再向下走到尽头。再向右走到尽头，再向下走到尽头，再向左走到第一个路口。","{
+  ""commands"": [
+    ""start('网球场', 'west')"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""stop('诊所')""
+  ]
+}"
+map_seed59.png_person4,map_seed59.png,59,person4,north,"起点: 网球场
+终点: 诊所
+初始朝向: north
+导航指令: 从网球场出发，向北走到文具店，向西走到警察局，向南走到动物园，向西走到商场。向南走到公交站，向东走到博物馆，向南走到便利店，向西走到诊所。","{""commands"": [
+  ""start('网球场', 'north')"",
+  ""detect('文具店')"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""turn_left()"",
+  ""detect('动物园')"",
+  ""turn_right()"",
+  ""detect('商场')"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""stop('诊所')""
+]}"
+map_seed59.png_person5,map_seed59.png,59,person5,north,"起点: 网球场
+终点: 诊所
+初始朝向: north
+导航指令: 背对网球场，正对加油站，向右手边出发，一路直走到珠宝店之后再向左转。看见警察局之后呢，再向左转，直走到动物园，再向右转。到电影院前面的这个路口时，再向左转一路直走，到公交站再向左转直走，到博物馆再向右转直走，到便利店再向右转直走。左手边就是你要找的诊所。","{""commands"": [
+  ""start('网球场', 'north')"",
+  ""detect('珠宝店')"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""turn_left()"",
+  ""detect('动物园')"",
+  ""turn_right()"",
+  ""detect('电影院')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('公交站')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""stop('诊所')""
+]}"
+map_seed59.png_person6,map_seed59.png,59,person6,north,"起点: 网球场
+终点: 诊所
+初始朝向: north
+导航指令: 在网球场和玩具店这条路上，一路向北走，走到珠宝店处时，向西走，走到牙科前的路口处时。向南走到达动物园，再向西走在电影院前的路口时，一路向南走，一直走到公交站处，再向东走，走到博物馆，再向南走到达便利店。最后向西走，一直往前走，诊所就在左手边。","{""commands"": [
+  ""start('网球场', 'north')"",
+  ""detect('珠宝店')"",
+  ""turn_left()"",
+  ""detect('牙科')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('动物园')"",
+  ""turn_right()"",
+  ""detect('电影院')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('公交站')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""detect('便利店')"",
+  ""turn_right()"",
+  ""stop('诊所')""
+]}"
+map_seed63.png_person1,map_seed63.png,63,person1,west,"起点: 旅行社
+终点: 便当店
+初始朝向: west
+导航指令: 起点为旅行社，向旅行社在左手边的方向前进，到达幼儿园，向右转，直行到书法班，向左转，直行到十字路口，十字路口附近有便当店，便当店为终点","{""commands"": [
+  ""start('旅行社', 'west')"",
+  ""move_forward()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('书法班')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('便当店')""
+]}"
+map_seed63.png_person2,map_seed63.png,63,person2,west,"起点: 旅行社
+终点: 便当店
+初始朝向: west
+导航指令: 从旅行社出发，向西行走至警察局，接着向北走至书法班，然后向西行走，经过第一个路口便可到达便当店","{""commands"": [
+  ""start('旅行社', 'west')"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""detect('书法班')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('便当店')""
+]}"
+map_seed63.png_person4,map_seed63.png,63,person4,west,"起点: 旅行社
+终点: 便当店
+初始朝向: west
+导航指令: 从旅行社出发，向西走到幼儿园，向北走到书法班，向西走到便当店。","{""commands"": [
+  ""start('旅行社', 'west')"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('书法班')"",
+  ""turn_left()"",
+  ""stop('便当店')""
+]}"
+map_seed63.png_person5,map_seed63.png,63,person5,west,"起点: 旅行社
+终点: 便当店
+初始朝向: west
+导航指令: 背对旅行社，向左手边出发，直走。走到幼儿园之后，再向右转直走。看见书法班之后，再向左转直走。你的右手边就是便当店。","{""commands"": [
+  ""start('旅行社', 'west')"",
+  ""move_forward()"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('书法班')"",
+  ""turn_left()"",
+  ""stop('便当店')""
+]}"
+map_seed63.png_person6,map_seed63.png,63,person6,west,"起点: 旅行社
+终点: 便当店
+初始朝向: west
+导航指令: 从旅行社出发，一路向西走，走到幼儿园，再向北走到达书法班，接着再向西走过一个十字路口，便当店就在右手边。","{""commands"": [
+  ""start('旅行社', 'west')"",
+  ""detect('幼儿园')"",
+  ""turn_right()"",
+  ""detect('书法班')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('便当店')""
+]}"
+map_seed64.png_person1,map_seed64.png,64,person1,south,"起点: 汉堡店
+终点: 清真寺
+初始朝向: south
+导航指令: 起点是汉堡店，向左手边是汉堡店的方向前进，到达尽头，向左转，走到尽头，饺子馆，向左转，走到第一个十字路口，直行在左手是清真寺的地方停止，终点是清真寺","{""commands"": [
+  ""start('汉堡店', 'south')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""detect('饺子馆')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('清真寺')""
+]}"
+map_seed64.png_person2,map_seed64.png,64,person2,south,"起点: 汉堡店
+终点: 清真寺
+初始朝向: south
+导航指令: 从汉堡店出发，向南行走，走至路的尽头后，向东一直行走至饺子馆，接着向北一直走，在第三个路口处便可到达清真寺","{""commands"": [
+  ""start('汉堡店', 'south')"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""detect('饺子馆')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('清真寺')""
+]}"
+map_seed64.png_person3,map_seed64.png,64,person3,west,"起点: 汉堡店
+终点: 清真寺
+初始朝向: west
+导航指令: 向左走到第一个路口，再向下走到尽头，再向右走到尽头，再向上走到第三个路口。","{""commands"": [""start('汉堡店', 'west')"", ""move_forward()"", ""detect_intersection()"", ""turn_left()"", ""move_to_end()"", ""turn_left()"",""move_to_end()"", ""turn_left()"",""move_forward()"", ""detect_intersection()"", ""move_forward()"",""detect_intersection()"", ""move_forward()"",""detect_intersection()"", ""stop('清真寺')""]}"
+map_seed64.png_person4,map_seed64.png,64,person4,south,"起点: 汉堡店
+终点: 清真寺
+初始朝向: south
+导航指令: 从汉堡店出发，向南走到面包店，向东走到饺子馆，向北走到清真寺。","{""commands"": [""start('汉堡店', 'south')"", ""detect('面包店')"", ""turn_left()"", ""detect('饺子馆')"", ""turn_left()"", ""stop('清真寺')""]}"
+map_seed64.png_person5,map_seed64.png,64,person5,south,"起点: 汉堡店
+终点: 清真寺
+初始朝向: south
+导航指令: 背对汉堡店，正对幼儿园，向左手边出发，到第一个路口时再向左转，一路直走到饺子馆，再向左转，沿着这条路一直直走，不要拐弯。左手边就是你要找的清真寺。","{""commands"": [""start('汉堡店', 'south')"", ""move_forward()"", ""detect_intersection()"", ""turn_left()"", ""detect('饺子馆')"", ""turn_left()"",""move_forward()"", ""stop('清真寺')""]}"
+map_seed64.png_person6,map_seed64.png,64,person6,south,"起点: 汉堡店
+终点: 清真寺
+初始朝向: south
+导航指令: 在汉堡店和幼儿园这条路上，先向南走，一直走到面包店前的路口时向东走，走到饺子馆，接着一直向北走，途中会经过两个路口。清真寺就在你的左手边。","{""commands"": [
+  ""start('汉堡店', 'south')"",
+  ""detect('面包店')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('饺子馆')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""stop('清真寺')""
+]}"
+map_seed65.png_person1,map_seed65.png,65,person1,north,"起点: 汉堡店
+终点: 医院
+初始朝向: north
+导航指令: 出发点是汉堡店，直走到达水果店，向左转，在第一个十字路口，向左转，直行到尽头面包店，向右转，一直直行走到尽头拉面店，向左转，直行到警察局，向右转，直行到尽头，向右转，一直直行到尽头，向右转，在右手是医院的地方，停止，医院是终点","{""commands"": [
+  ""start('汉堡店', 'north')"",
+  ""detect('水果店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""detect('拉面店')"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""stop('医院')""
+]}"
+map_seed65.png_person2,map_seed65.png,65,person2,north,"起点: 汉堡店
+终点: 医院
+初始朝向: north
+导航指令: 从汉堡店出发向北，走至水果店后，向西走，在路口处向南，走至面包店后，接着向西一直走，在第二个路口处向南。一直走至警察局，从警察局向西，走至停车场后向北，走至路的尽头后向东走，经过菜市场就可到达医院","{""commands"": [
+  ""start('汉堡店', 'north')"",
+  ""detect('水果店')"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""detect('停车场')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""detect('菜市场')"",
+  ""stop('医院')""
+]}"
+map_seed65.png_person3,map_seed65.png,65,person3,west,"起点: 汉堡店
+终点: 医院
+初始朝向: west
+导航指令: 向左走到尽头，再向上走到尽头，再向左走到第一个路口，再向下走到尽头，再向左走到尽头，再向下走到尽头，再向左走到到尽头，再向上走到尽头，再向右走2/7路程。","{""commands"": [
+  ""start('汉堡店', 'west')"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""stop('医院')""
+]}"
+map_seed65.png_person4,map_seed65.png,65,person4,north,"起点: 汉堡店
+终点: 医院
+初始朝向: north
+导航指令: 从汉堡店出发，向北走到水果店，向西走到服装店，向南走到面包店，向西走到拉面店，向南走到警察局。向西走到停车场，向北走到菜市场，再向东走到医院。","{""commands"": [
+  ""start('汉堡店', 'north')"",
+  ""detect('水果店')"",
+  ""turn_left()"",
+  ""detect('服装店')"",
+  ""turn_left()"",
+  ""detect('面包店')"",
+  ""turn_right()"",
+  ""detect('拉面店')"",
+  ""turn_left()"",
+  ""detect('警察局')"",
+  ""turn_right()"",
+  ""detect('停车场')"",
+  ""turn_right()"",
+  ""detect('菜市场')"",
+  ""turn_right()"",
+  ""stop('医院')""
+]}"
+map_seed65.png_person6,map_seed65.png,65,person6,north,"起点: 汉堡店
+终点: 医院
+初始朝向: north
+导航指令: 从汉堡店出发，一路向北走，走到水果店，接着向西走，在法院前的十字路口处向南走，走到面包店，接着再一路向西走，走到拉面店时向南走，走到警察局。然后再向西走，在美术馆前的路口时向北走，一直走到菜市场前的路口时向东走，医院就在右手边。","{""commands"": [""start('汉堡店', 'north')"", ""detect('水果店')"", ""turn_left()"", ""detect('法院')"",""detect_intersection()"", ""turn_left()"", ""detect('面包店')"", ""turn_right()"", ""detect('拉面店')"", ""turn_left()"", ""detect('警察局')"", ""turn_right()"",""detect('美术馆')"", ""detect_intersection()"", ""turn_right()"",""detect('菜市场')"", ""detect_intersection()"", ""turn_right()"", ""stop('医院')""]}"
+map_seed70.png_person1,map_seed70.png,70,person1,west,"起点: 便利店
+终点: 超市
+初始朝向: west
+导航指令: 出发点为便利店，向便利店在右手的方向前进，走到尽头是健身房，向左转，直行到博物馆，向右转，直行，到达第一个三岔路口，向左转，直行到游泳馆，向左转，直行到眼科，向右转，直行到尽头是火锅店，向右转，走到第一个十字路口，向左转，直行到尽头，向左转，直行到尽头是寺庙，向左转，直行到第一个三岔路口，向右转，走到第一个三岔路口，停止，附近有超市，超市是终点","{
+  ""commands"": [
+    ""start('便利店', 'west')"",
+    ""move_to_end()"",
+    ""detect('健身房')"",
+    ""turn_left()"",
+    ""detect('博物馆')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""detect('游泳馆')"",
+    ""turn_left()"",
+    ""detect('眼科')"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""detect('火锅店')"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""detect('寺庙')"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""stop('超市')""
+  ]
+}"
+map_seed70.png_person2,map_seed70.png,70,person2,west,"起点: 便利店
+终点: 超市
+初始朝向: west
+导航指令: 从便利店出发，向西走至健身房后，向南一直走至博物馆，接着向西，在路口处向南行走至游泳馆，后向东走至眼科。接着向南一直直走至火锅店，然后向西走，在第一个路口处向南一直走，走至路的尽头后，向东走至寺庙。从寺庙往北走，在走到烧烤店后向东走，经过电影院就可到达超市","{""commands"": [
+  ""start('便利店', 'west')"",
+  ""detect('健身房')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('游泳馆')"",
+  ""turn_left()"",
+  ""detect('眼科')"",
+  ""turn_right()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_to_end()"",
+  ""turn_left()"",
+  ""detect('寺庙')"",
+  ""turn_left()"",
+  ""detect('烧烤店')"",
+  ""turn_right()"",
+  ""detect('电影院')"",
+  ""stop('超市')""
+]}"
+map_seed70.png_person3,map_seed70.png,70,person3,south,"起点: 便利店
+终点: 超市
+初始朝向: south
+导航指令: 向下走到尽头，再向左走到尽头，再向下走到尽头，再向左走到第一个路口，再向下走到尽头，再向右走到尽头，再向下走到尽头。再向左走到第一个路口，再向下走到尽头，再向右走到尽头，再向上走到第一个路口，再向右走到尽头。","{
+  ""commands"": [
+    ""start('便利店', 'south')"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_forward()"",
+    ""detect_intersection()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""stop('超市')""
+  ]
+}"
+map_seed70.png_person6,map_seed70.png,70,person6,west,"起点: 便利店
+终点: 超市
+初始朝向: west
+导航指令: 在便利店和家具店这条路上，一直向西走，走到健身房，接着向南走，走到博物馆，再向西走，在打印店前的路口处向南走，走到游泳馆，再向东走，走到眼科，接着向南走，走到火锅店，再向西走，在前方的十字路口处向南走，走到ATM，接着向东走，走到寺庙，再向北走，在市政厅前的路口处，向东走，超市就在左手边。","{""commands"": [
+  ""start('便利店', 'west')"",
+  ""detect('健身房')"",
+  ""turn_left()"",
+  ""detect('博物馆')"",
+  ""turn_right()"",
+  ""detect('打印店')"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""detect('游泳馆')"",
+  ""turn_left()"",
+  ""detect('眼科')"",
+  ""turn_right()"",
+  ""detect('火锅店')"",
+  ""turn_right()"",
+  ""move_forward()"",
+  ""detect_intersection()"",
+  ""turn_left()"",
+  ""move_forward()"",
+  ""detect('ATM')"",
+  ""turn_left()"",
+  ""detect('寺庙')"",
+  ""turn_left()"",
+  ""detect('市政厅')"",
+  ""detect_intersection()"",
+  ""turn_right()"",
+  ""stop('超市')""
+]}"
+map_seed74.png_person1,map_seed74.png,74,person1,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 起点为税务局，向左边是照相馆的方向前进，到达花店，向右转，直行到洗衣店，向左转，直行到篮球场，向右转，走到尽头是眼镜店，向右转，直行到左手是酒店的地方，停止，酒店是终点","{""commands"": [
+  ""start('税务局', 'east')"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('洗衣店')"",
+  ""turn_left()"",
+  ""detect('篮球场')"",
+  ""turn_right()"",
+  ""move_to_end()"",
+  ""detect('眼镜店')"",
+  ""turn_right()"",
+  ""stop('酒店')""
+]}"
+map_seed74.png_person2,map_seed74.png,74,person2,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 从税务局出发，向东行走至花店，接着向南走至洗衣店，然后向东一直走至篮球场后向南行走，走至眼镜店后向西走。就可到达酒店","{""commands"": [
+  ""start('税务局', 'east')"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('洗衣店')"",
+  ""turn_left()"",
+  ""detect('篮球场')"",
+  ""turn_right()"",
+  ""detect('眼镜店')"",
+  ""turn_right()"",
+  ""stop('酒店')""
+]}"
+map_seed74.png_person3,map_seed74.png,74,person3,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 向右走到尽头，再向下走到尽头，再向右走到尽头，再向下走到尽头，再向左走距离第一个路口的1/2路程。","{
+  ""commands"": [
+    ""start('税务局', 'east')"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_left()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_to_end()"",
+    ""turn_right()"",
+    ""move_forward()"",
+    ""stop('酒店')""
+  ]
+}"
+map_seed74.png_person4,map_seed74.png,74,person4,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 从税务局出发，向东走到花店，向南走到洗衣店，向东走到篮球场，向南走到眼镜店，向西走到酒店。","{""commands"": [
+  ""start('税务局', 'east')"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('洗衣店')"",
+  ""turn_left()"",
+  ""detect('篮球场')"",
+  ""turn_right()"",
+  ""detect('眼镜店')"",
+  ""turn_right()"",
+  ""stop('酒店')""
+]}"
+map_seed74.png_person5,map_seed74.png,74,person5,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 背对税务局，向前一直直走到花店，再向右转，直走到洗衣店，再向左转，直走到篮球场，再向右转，直走到眼镜店，再向右转，往前走一段距离就是酒店。","{""commands"": [
+  ""start('税务局', 'east')"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('洗衣店')"",
+  ""turn_left()"",
+  ""detect('篮球场')"",
+  ""turn_right()"",
+  ""detect('眼镜店')"",
+  ""turn_right()"",
+  ""stop('酒店')""
+]}"
+map_seed74.png_person6,map_seed74.png,74,person6,east,"起点: 税务局
+终点: 酒店
+初始朝向: east
+导航指令: 从税务局出发，先向东走，一直走到花店，然后再向南走到达洗衣店，再向东走到达篮球场，接着向南走到达眼镜店。酒店就在眼镜店的西边。","{""commands"": [
+  ""start('税务局', 'east')"",
+  ""detect('花店')"",
+  ""turn_right()"",
+  ""detect('洗衣店')"",
+  ""turn_left()"",
+  ""detect('篮球场')"",
+  ""turn_right()"",
+  ""detect('眼镜店')"",
+  ""turn_right()"",      
+  ""stop('酒店')""
+]}"
